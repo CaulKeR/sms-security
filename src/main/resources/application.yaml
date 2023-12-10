@@ -1,0 +1,13 @@
+app:
+  system-phone: 4523762263
+  uri-validation:
+    google:
+      api-key: 8fe9c825-21bd-479a-8bd4-68a605bd88b5
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telecom_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
