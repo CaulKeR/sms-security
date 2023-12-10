@@ -1,0 +1,13 @@
+package com.telecom.antiphishing;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SmsSecurityApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SmsSecurityApplication.class, args);
+    }
+
+}
